@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Running lint check..."
+echo "Running lint check...."
 
 ./gradlew app:ktlintCheck --daemon
 
